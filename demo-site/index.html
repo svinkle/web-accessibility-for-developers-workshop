@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Outdoorsy</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+		<link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <a href="#main" class="visuallyhidden focusable skip-link">
+      Skip to content
+    </a>
+    <header class="header innerwrapper">
+      <div class="topbar">
+        <a href="index.html"><h2>outdoorsy</h2></a>
+        <nav class="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li>
+              <a href="blog-post.html">Blog</a>
+              <ul class="dropdown">
+                <li><a href="index.html">Blog Category 1</a></li>
+                <li><a href="index.html">Blog Category 2</a></li>
+                <li><a href="index.html">Blog Category 3</a></li>
+                <li><a href="index.html">Blog Category 4</a></li>
+              </ul>
+            </li>
+            <li><a href="popup.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1>hiking outdoors lorem ipsum dolor</h1>
+    </header>
+    <div class="overlay">
+      <div class="popup">
+        <div><img src="img/popup-image.jpg" alt="" /></div>
+        <div class="textside">
+          <!--
+            <a href="index.html"><span class="closebutton"><i class="fas fa-times"></i></span></a>
+          -->
+          <h1 id="popup-title-1">want to know more?</h1>
+          <h2 id="popup-title-2">sign up for my newsletter</h2>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" placeholder="name" />
+            <label for="email">Email</label>
+            <input type="email" placeholder="email address" />
+            <input type="submit" value="Sign up" />
+          </form>
+        </div>
+        <div class="close"><i class="fa fa-times"></i></div>
+      </div>
+    </div>
+    <main id="main" class="wrapper main" tabindex="-1">
+      <div class="primary">
+        <div>
+          <img src="img/blog-image-1.jpg" alt="" />
+          <a href="blog-post.html">
+            <h3>How to Choose the Right Hiking Gear</h3>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat.
+            <a href="index.html" class="readmore">READ MORE...</a>
+          </p>
+        </div>
+        <div>
+          <img src="img/blog-image-2.jpg" alt="" />
+          <a href="blog-post.html">
+            <h3>5 Bridges You Must See In Ontario</h3>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat.
+            <a href="index.html" class="readmore">READ MORE...</a>
+          </p>
+        </div>
+        <div>
+          <img src="img/blog-image-3.jpg" alt="" />
+          <a href="blog-post.html"><h3>My Latest Trip: Peru</h3></a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            consequat.
+            <a href="index.html" class="readmore">READ MORE...</a>
+          </p>
+        </div>
+      </div>
+      <aside class="secondary">
+        <div>
+          <img src="img/about-image.jpg" alt="" />
+          <h3>Welcome!</h3>
+          <p>
+            I’m Jane Doe! Lorem ipsum dolor sit amet, consectetuer adipiscing
+            elit, sed diam nonummy.
+            <a href="index.html">READ MORE...</a>
+          </p>
+        </div>
+        <div>
+          <ul class="socialicons">
+            <a href="index.html">
+              <li><i class="fab fa-facebook-f"></i></li>
+            </a>
+            <a href="index.html">
+              <li><i class="fab fa-instagram"></i></li>
+            </a>
+            <a href="index.html">
+              <li><i class="fab fa-twitter"></i></li>
+            </a>
+            <a href="index.html">
+              <li><i class="fab fa-linkedin-in"></i></li>
+            </a>
+            <a href="index.html">
+              <li><i class="fab fa-google"></i></li>
+            </a>
+          </ul>
+        </div>
+        <div>
+          <form>
+            <label for="search">Search</label>
+            <input type="search" placeholder="search" />
+            <button class="search"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div>
+          <h3>Latest Posts</h3>
+          <ul>
+            <li>Post title here</li>
+            <li>Other post title here</li>
+            <li>Blog post title</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Newsletter</h3>
+          <button class="newsletter-signup-btn">
+            Signup for our newsletter
+          </button>
+        </div>
+      </aside>
+    </main>
+    <footer class="footer innerwrapper">
+      <div>
+        <a href="index.html"><h2>outdoorsy</h2></a>
+        <form>
+          <label for="email">Email</label>
+          <input type="text" placeholder="email address" />
+          <input type="submit" value="Sign up" />
+        </form>
+        <p class="copyright">© 2018 HackerYou</p>
+      </div>
+      <div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Blog</a></li>
+          <li><a href="index.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+          nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+          volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+          ullamcorper suscipit.
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/wicg-inert"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/tooltip.js"></script>
+    <script src="js/modal-window.js"></script>
+  </body>
+</html>
