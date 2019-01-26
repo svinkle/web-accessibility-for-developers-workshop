@@ -1,0 +1,19 @@
+/*Focus indicator ----------------------------------------------------*/
+
+*:focus {
+  /* outline: 0; */
+}
+
+/*Animation ----------------------------------------------------------*/
+
+@media (prefers-reduced-motion) {
+  .overlay {
+    transition: none;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .tool-tip .tip {
+    transition: none;
+  }
+}

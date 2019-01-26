@@ -50,6 +50,6 @@ This comes back to 2.4.1 Bypass Blocks which states
 
 #### Exercise!
 
-1.  In your browser and editor, load: `website/index.html`.
+1.  In your browser and editor, load: `demo-site/index.html`.
 2.  Add a skip link to the top of the document.
 3.  Add the code for the container to receive focus.

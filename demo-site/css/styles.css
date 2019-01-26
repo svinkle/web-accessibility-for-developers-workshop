@@ -11,6 +11,7 @@
   box-sizing: border-box;
 }
 
+/* Adjust to allow focus indicator */
 *:focus {
   outline: 0;
 }
@@ -460,6 +461,8 @@ p.copyright {
   visibility: visible;
 }
 
+/* Add the media query to disable animation */
+
 .popup {
   flex: 0 0 60%;
   display: flex;
@@ -552,6 +555,9 @@ span.closebutton:hover {
   opacity: 1;
   visibility: visible;
 }
+
+/* Add the media query to disable animation */
+
 .tool-tip .tip::after {
   content: '';
   border: 10px solid black;

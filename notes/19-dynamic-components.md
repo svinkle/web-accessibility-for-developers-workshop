@@ -94,7 +94,7 @@ For example, with a modal window content, apply the `inert` attribute to content
 
 ## Exercise!
 
-1.  In your browser, load: `website/popup.html`
-2.  In your editor of choice, load: `website/modal-window.js`
+1.  In your browser, load: `demo-site/popup.html`
+2.  In your editor of choice, load: `demo-site/js/modal-window.js`
 3.  Add the JavaScript code to make the "Sign up for our newsletter" modal accessible!
 4.  **Bonus!** There are other issues to fix — can you find them?

@@ -836,13 +836,13 @@
           <ol class="exercise-list">
             <li>Load up the HTML pages of our demo site in your browser.</li>
             <li>Try navigating with just the Tab key.</li>
-            <li>Fix any issues by adjusting the <code>website/styles.css</code> file.</li>
+            <li>Fix any issues by adjusting the <code>demo-site/css/styles.css</code> file.</li>
           </ol>
           <aside class="notes">
             <ol>
               <li>Load up the HTML pages of our demo site in your browser.</li>
               <li>Try navigating with just the Tab key.</li>
-              <li>Fix any issues by adjusting the <code>website/styles.css</code> file.</li>
+              <li>Fix any issues by adjusting the <code>demo-site/css/styles.css</code> file.</li>
             </ol>
           </aside>
         </section>
@@ -1530,13 +1530,13 @@
         <section>
           <h3>Exercise!</h3>
           <ol class="exercise-list">
-            <li>In your browser and editor, load: <code>website/blog-post.html</code>.</li>
+            <li>In your browser and editor, load: <code>demo-site/blog-post.html</code>.</li>
             <li>Pick a photo and try writing some <code>alt</code> text describing the image.</li>
             <li><strong>Bonus!</strong> Use your screen reader virtual cursor to listen to your <code>alt</code> text.</li>
           </ol>
           <aside class="notes">
             <ol>
-              <li>In your browser and editor, load: <code>website/blog-post.html</code>.</li>
+              <li>In your browser and editor, load: <code>demo-site/blog-post.html</code>.</li>
               <li>Pick a photo and try writing some <code>alt</code> text describing the image.</li>
               <li><strong>Bonus!</strong> Use your screen reader virtual cursor to listen to your <code>alt</code> text.</li>
             </ol>
@@ -1792,13 +1792,13 @@
         <section>
           <h4>Exercise!</h4>
           <ol class="exercise-list">
-            <li>In your browser and editor, load: <code>website/index.html</code>.</li>
+            <li>In your browser and editor, load: <code>demo-site/index.html</code>.</li>
             <li>Add a skip link to the top of the document.</li>
             <li>Add the code for the container to receive focus.</li>
           </ol>
           <aside class="notes">
             <ol>
-              <li>In your browser and editor, load: <code>website/index.html</code>.</li>
+              <li>In your browser and editor, load: <code>demo-site/index.html</code>.</li>
               <li>Add a skip link to the top of the document.</li>
               <li>Add the code for the container to receive focus.</li>
             </ol>
@@ -2016,27 +2016,6 @@
           </aside>
         </section>
         <section>
-          <h3>Required fields</h3>
-          <ul>
-            <li>Notes which fields are absolutely necessary to fill in</li>
-            <li>Ensure placement of the icon is consistent </li>
-            <li>Contrast ratio high enough to be visible</li>
-          </ul>
-          <p>See an <a href="https://svinkle.github.io/angular-forms-next-level-a11y/">example of required fields</a> notice.</p>
-          <aside class="notes">
-            <p>When only specific fields are required to fill out a form, it's best to denote this requirement with a visual cue. This helps people to know which fields they absolutely need to fill in which in turn provides reassurance when filling out the form.</p>
-            <p>Typically this is done with an asterisk character placed beside the form <code>label</code>. Weather you use the asterisk or some other form of icon, what's important here is:</p>
-            <ul>
-              <li>The placement of the icon is consistent throughout the form</li>
-              <li>The icon features a contrast ratio high enough to be visible (3.0:1 for non-text elements)</li>
-            </ul>
-            <p>In addition to the visual cue for each required field beside the <code>label</code>, it's also <em>ideal</em> (but not necessarily required) to place visual instructions at the top of the form noting what the icon is for. Something along the lines of:</p>
-            <code>* denotes a required field</code>
-            <p>With this visible note, people with <strong>cognitive impairments</strong> will have less trouble with understanding what the icon is for.</p>
-            <p><em>(Load up a Shopify store as an example of an alternative method.)</em></p>
-          </aside>
-        </section>
-        <section>
           <h3><span aria-hidden="true">✅</span> <a href="https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html">3.3.2 Labels or Instructions</a></h3>
           <p>"Labels or instructions are provided when content requires user input."</p>
           <aside class="notes">
@@ -2147,15 +2126,15 @@
         <section>
           <h4>Exercise!</h4>
           <ol class="exercise-list">
-            <li>In your browser, load: <code>website/blog-post.html</code> and submit the Comment form.</li>
-            <li>In your editor of choice, load: <code>website/form-validation.js</code>.</li>
+            <li>In your browser, load: <code>demo-site/blog-post.html</code> and submit the Comment form.</li>
+            <li>In your editor of choice, load: <code>demo-site/js/form-validation.js</code>.</li>
             <li>Add the JavaScript code to connect each <code>input</code> with its related error message.</li>
             <li><strong>Bonus!</strong> Test with a screen reader to make sure things are connected!</li>
           </ol>
           <aside class="notes">
             <ol>
-              <li>In your browser, load: <code>website/blog-post.html</code> and submit the Comment form.</li>
-              <li>In your editor of choice, load: <code>website/form-validation.js</code>.</li>
+              <li>In your browser, load: <code>demo-site/blog-post.html</code> and submit the Comment form.</li>
+              <li>In your editor of choice, load: <code>demo-site/js/form-validation.js</code>.</li>
               <li>Add the JavaScript code to connect each <code>input</code> with its related error message.</li>
               <li><strong>Bonus!</strong> Test with a screen reader to make sure things are connected!</li>
             </ol>
@@ -2504,6 +2483,179 @@
             <p>This comes back to 2.4.3: Focus Order which states</p>
             <p>If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.</p>
             <p>In this context, focus is lost within the visually hidden links which cause hidden tab-stops. This can create a confusing user experience for keyboard-only users when they wonder where the cursor went?</p>
+          </aside>
+        </section>
+      </section>
+
+      <!-- Animation -->
+
+      <section>
+        <section data-background-video="images/Nicole-Fidget-Cinemagraph.mp4" data-background-video-loop data-background-video-muted>
+          <h2>Animation</h2>
+          <aside class="notes">
+            <p>Have you ever had a bad day where you're just not feeling great? Perhaps you have a headache, or feeling nauseated from the night before? Then you go online to be greeted with a bunch of animation, scroll jacking, parallax motion, or a video background on a slide that it only make you feel worse! It happens to us all at some point or another.</p>
+            <p>Using animation on the web is a great way to bring a unique flare to your design and maybe add a bit of delight to your user experience. Well designed animations are informative; they let the user know something has taken place or are used
+              to guide the user to a new task which needs attention. Ideally, animations would be useful, predictable, and consistent.</p>
+            <p>On the other hand, poor use of animations might be distracting, take the attention away from the current task, and might even leave someone feeling queasy and disoriented.</p>
+          </aside>
+        </section>
+        <section>
+          <h3>What actually makes up a "poor" animation</h3>
+          <ul>
+            <li>Size of movement — Keep animations small and purposeful</li>
+            <li>Direction and speed – Allow the user to scroll at their own pace.</li>
+            <li>Distance — Refrain from animating long lengths of content</li>
+          </ul>
+          <aside class="notes">
+            <p>Everyone will have a different reaction, or perhaps no reaction at all, to a piece of animation. For those who do experience a negative reaction, how to we avoid creating such an experience?</p>
+            <p>Here's a few points to consider when creating animations:</p>
+            <ul>
+              <li><strong>Size of movement.</strong> Small or compact animations, like a loading spinner, are helpful. However, if there's something moving from one side of the screen to another, especially critical pieces of content, this can be problematic.
+                Keep animations small and purposeful.</li>
+              <li><strong>Direction and speed.</strong> Parallax effects and scroll jacking, which tend to involve foreground and background elements moving at different speeds, or objects moving in different directions than expected, can cause issues. Allow
+                the user to scroll at their own pace.</li>
+              <li><strong>Distance.</strong> For animations which seem to span large lengths of space, although only the size of a computer screen, can sometimes trigger a negative experience. Again, it's best to keep animations small and compact in order
+                to avoid a negative user experience. Refrain from animating long lengths of content.</li>
+            </ul>
+            <p>Animation is something that can unexpected, and when it's there, we typically don't have a whole lot of control over the experience. How can we ensure when animation is in use that we also create an accessible experience?</p>
+          </aside>
+        </section>
+        <section>
+          <h3>Animation and accessibility</h3>
+          <div class="grid">
+            <div class="grid__item">
+              <img src="images/vestibular-disorder.jpg" alt="A young woman holds her head in pain.">
+            </div>
+            <div class="grid__item">
+              <ul>
+                <li>Someone with a cognitive impairment may get easily distracted or frustrated</li>
+                <li>Someone with Vestibular issues may experience vertigo or feel nauseated</li>
+              </ul>
+            </div>
+          </div>
+          <aside class="notes">
+            <p>How might adding animations to a website, app, or even an operating system, have a negative impact on those with a disability? Here's a couple ways:</p>
+            <ul>
+              <li>When it comes to someone with a <strong>cognitive impairment</strong>, setting in place a highly animated scene or activity upon completing an action, or having other moving pieces on the screen such as an auto-playing video or advertisement
+                can be very distracting.
+              </li>
+              <li>For folks who are susceptible to motion sickness or <strong> Vestibular issues</strong>, some animation can very easily lead to feelings of nausea or vertigo.</li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <h3>Animation example</h3>
+          <ul>
+            <li><a href="https://codepen.io/2975/pen/WdMMaR">Split Landing Page</a></li>
+            <li><a href="https://vimeo.com/cameo">Vimeo Cameo</a></li>
+            <li><a href="https://www.bolden.nl/">Bolden</a></li>
+            <li><a href="https://tankdesign.com/">Tank Design</a></li>
+            <li><a href="http://www.sbs.com.au/theboat/">The Boat</a></li>
+          </ul>
+          <aside class="notes">
+            <p>Before we move on to discuss methods of ensuring a positive user experience with animation, let's <em>briefly</em> look at a few examples…</p>
+            <p>Right before we do, I think there's no doubt that there was a lot of effort and creativity put into making each of these sites. However, we might be able to conclude that inclusivity was not in mind when these user experiences were designed.
+              Each example includes elements which would be problematic for some people with disabilities.</p>
+            <ul>
+              <li><a href="https://codepen.io/2975/pen/WdMMaR">Split Landing Page</a></li>
+              <li><a href="https://vimeo.com/cameo">Vimeo Cameo</a></li>
+              <li><a href="https://www.bolden.nl/">Bolden</a></li>
+              <li><a href="https://tankdesign.com/">Tank Design</a></li>
+              <li><a href="http://www.sbs.com.au/theboat/">The Boat</a></li>
+            </ul>
+          </aside>
+        </section>
+        <section>
+          <h3>The <code>prefers-reduced-motion</code> media query</h3>
+          <aside class="notes">
+            <p>One tool in the developer toolbox we can utilize is the <code>prefers-reduced-motion</code> CSS media query. In order give the choice of experiencing animations for our users, both macOS and iOS feature a setting to remove animation altogether called Reduce motion.</p>
+            <p>When this setting is enabled within the operating system settings, code within the <code>prefers-reduced-motion</code> media query will fire, allowing developers to essentially create a "no animation" state.</p>
+          </aside>
+        </section>
+        <section>
+          <h4>Setting the OS</h4>
+          <div class="grid">
+            <div class="grid__item">
+              <ol>
+                <li>macOS Settings</li>
+                <li>Accessibility</li>
+                <li>Display</li>
+                <li>Activate the <strong>Reduce motion</strong> checkbox</li>
+              </ol>
+            </div>
+            <div class="grid__item">
+              <img src="images/reduce-motion.png" alt="Screenshot of macOS Accessibility settings.">
+            </div>
+          </div>
+          <aside class="notes">
+            <p>First, let's review how to enable this Reduce motion setting in macOS:</p>
+            <ol>
+              <li>macOS Settings</li>
+              <li>Accessibility</li>
+              <li>Display</li>
+              <li>Activate the Reduce motion checkbox</li>
+            </ol>
+            <p>With this set, any code within the <code>prefers-reduced-motion</code> media query will execute.</p>
+          </aside>
+        </section>
+        <section>
+          <h4>Coding a "no animation" state</h4>
+          <pre>
+            <code class="language-css">
+              a {
+                color: Crimson;
+                transition: color .25s;
+              }
+
+              a:focus, a:hover {
+                color: FireBrick;
+              }
+
+              @media (prefers-reduced-motion) {
+                a {
+                  transition: none;
+                }
+              }
+            </code>
+          </pre>
+          <aside class="notes">
+            <p>When we want to remove or disable a piece of animation in a website, we can add the CSS to a <code>prefers-reduced-motion</code> media query.</p>
+            <p>For example, if there was a <code>transition</code> set on all <code>a</code> elements to animate the color on <code>hover</code> and <code>focus</code>, the CSS might look like: <em>(what's on the screen)</em></p>
+            <p>And if, for example, the end user didn't want to wait the <code>.25</code> seconds for the transition to complete for some reason, we could provide a "no animation" state by utilizing the <code>prefers-reduced-motion</code> media query:</p>
+            <p>And that's it! By including this bit of CSS, any <code>transition</code> animations set on the <code>a</code> selector will be removed when the user has selected the Reduce motion option in their operating system settings.</p>
+            <p>As of this writing only Safari and Firefox support this media query with other browsers and operating systems trailing behind.</p>
+            <p>By using the `prefers-reduced-motion` media query, we're allowing our users to remove all animations which they may find distracting or jarring. Remember, the key here is to provide a usable and comfortable user experience in order for people to enjoy, return to, and share the content we create.</p>
+          </aside>
+        </section>
+        <section>
+          <h4>Browser/OS Support</h4>
+          <a href="https://caniuse.com/#feat=prefers-reduced-motion"><img src="images/reduce-motion-can-i-use.png" alt="Can I Use – prefers-reduced-motion"></a>
+          <aside class="notes">
+            <p>As of this writing only Safari and Firefox support this media query with other browsers and operating systems trailing behind. However, let's not let this prevent us from future-proofing our code. People in the future who require and rely on this setting will thank you.</p>
+            <p>By using the <code>prefers-reduced-motion</code> media query, we're allowing our users to remove all animations which they may find distracting or jarring. Remember, the key here is to provide a usable and comfortable user experience in order for people to enjoy, return to, and share the content we create.</p>
+          </aside>
+        </section>
+        <section>
+          <h3><span aria-hidden="true">✅</span> <a href="https://www.w3.org/WAI/WCAG21/Understanding/animation-from-interactions.html">2.3.3 Animation from Interactions</a></h3>
+          <p>"Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed."</p>
+          <aside class="notes">
+            <p>This comes back to 2.3.3 Animation from Interactions which states</p>
+            <p>Motion animation triggered by interaction can be disabled, unless the animation is essential to the functionality or the information being conveyed.</p>
+          </aside>
+        </section>
+        <section>
+          <h3>Exercise!</h3>
+          <ol>
+            <li>In your browser, load: <code>demo-site/blog-post.html</code> and
+              <ul>
+                <li>Mouse-over the "Leave a Comment"</li>
+                <li>Click the "Newsletter" link</li>
+              </ul>
+            <li>In your editor of choice, load: <code>demo-site/css/styles.css</code>.</li>
+            <li>Add the <code>prefers-reduced-motion</code> media query to disable the fade-in animations.</li>
+          </ol>
+          <aside class="notes">
+
           </aside>
         </section>
       </section>
@@ -2904,15 +3056,15 @@
         <section>
           <h4>Exercise!</h4>
           <ol class="exercise-list">
-            <li>In your browser, load: <code>website/popup.html</code></li>
-            <li>In your editor of choice, load: <code>website/modal-window.js</code></li>
+            <li>In your browser, load: <code>demo-site/popup.html</code></li>
+            <li>In your editor of choice, load: <code>demo-site/js/modal-window.js</code></li>
             <li>Add the JavaScript code to make the "Sign up for our newsletter" modal accessible!</li>
             <li><strong>Bonus!</strong> There are other issues to fix — can you find them?</li>
           </ol>
           <aside class="notes">
             <ol>
-              <li>In your browser, load: <code>website/popup.html</code></li>
-              <li>In your editor of choice, load: <code>website/modal-window.js</code></li>
+              <li>In your browser, load: <code>demo-site/popup.html</code></li>
+              <li>In your editor of choice, load: <code>demo-site/js/modal-window.js</code></li>
               <li>Add the JavaScript code to make the "Sign up for our newsletter" modal accessible!</li>
               <li><strong>Bonus!</strong> There are other issues to fix — can you find them?</li>
             </ol>
@@ -3066,8 +3218,8 @@
         <section>
           <h4>Exercise!</h4>
           <ol class="exercise-list">
-            <li>In your browser, load: <code>website/blog-post.html</code></li>
-            <li>In your editor of choice, load: <code>website/tooltip.js</code></li>
+            <li>In your browser, load: <code>demo-site/blog-post.html</code></li>
+            <li>In your editor of choice, load: <code>demo-site/js/tooltip.js</code></li>
             <li>Add the JavaScript code to make the "Leave a Comment" tooltip accessible!</li>
           </ol>
           <aside class="notes">

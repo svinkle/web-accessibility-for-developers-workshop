@@ -30,8 +30,9 @@ The topics we will discuss include:
 14. [Proximity/text zoom](notes/14-proximity-text-zoom.md)
 15. [Responsive design](notes/15-responsive-design.md)
 16. [Offscreen content](notes/16-offscreen-content.md)
-17. [ARIA](notes/17-aria.md)
-18. [Dynamic components](notes/18-dynamic-components.md)
+17. [Animation](notes/17-animation.md)
+18. [ARIA](notes/18-aria.md)
+19. [Dynamic components](notes/19-dynamic-components.md)
 
 ## What to bring
 

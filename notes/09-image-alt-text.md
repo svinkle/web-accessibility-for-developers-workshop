@@ -70,6 +70,6 @@ This comes back to WCAG 1.1.1 Non-text Content which states
 
 ## Exercise!
 
-1.  In your browser and editor, load: `website/blog-post.html`.
+1.  In your browser and editor, load: `demo-site/blog-post.html`.
 2.  Pick a photo and try writing some `alt` text describing the image.
 3.  **Bonus!** Use your screen reader virtual cursor to listen to your `alt` text.

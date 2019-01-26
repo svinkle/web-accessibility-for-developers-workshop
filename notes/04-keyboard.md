@@ -128,4 +128,4 @@ With some exceptions, only elements to receive the `tabindex="0"` attribute woul
 
 1.  Load up the HTML pages of our demo site in your browser.
 2.  Try navigating with just the `Tab` key.
-3.  Fix any issues by adjusting the `website/styles.css` file.
+3.  Fix any issues by adjusting the `demo-site/styles.css` file.

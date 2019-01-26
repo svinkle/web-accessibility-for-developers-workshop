@@ -68,28 +68,7 @@ The benefits of this approach are quite clear:
 
 With all this in mind, it's strongly recommended to keep `label`s visible. Eliminate any guesswork required from your users and allow them to complete the task at hand with ease and confidence.
 
-### Required fields
-
-- Notes which fields are absolutely necessary to fill in
-- Ensure placement of the icon is consistent
-- Contrast ratio high enough to be visible
-
-> See an [example of required fields](https://svinkle.github.io/angular-forms-next-level-a11y/) notice.
-
-When only specific fields are required to fill out a form, it's best to denote this requirement with a visual cue. This helps people to know which fields they absolutely need to fill in which in turn provides reassurance when filling out the form.
-
-Typically this is done with an asterisk character placed beside the form `label`. Weather you use the asterisk or some other form of icon, what's important here is:
-
-- The placement of the icon is consistent throughout the form
-- The icon features a contrast ratio high enough to be visible (3.0:1 for non-text elements)
-
-In addition to the visual cue for each required field beside the `label`, it's also _ideal_ (but not necessarily required) to place visual instructions at the top of the form noting what the icon is for. Something along the lines of:
-
-```html
-<p>* denotes a required field</p>
-```
-
-With this visible note, people with **cognitive impairments** will have less trouble with understanding what the icon is for.
+---
 
 The design of form error messaging can be quite delicate. The idea is to bring awareness to the current state of the form without being overwhelming. Unfortunately it's very easy to cause frustration or grief when displaying error states, especially for those who aren't so tech savvy and who are already very cautious and on edge from using a computer in the first place.
 
@@ -183,7 +162,7 @@ This comes back to 3.3.1 Error Identification which states
 
 ## Exercise!
 
-1.  In your browser, load: `website/blog-post.html` and submit the Comment form.
-2.  In your editor of choice, load: `website/form-validation.js`.
+1.  In your browser, load: `demo-site/blog-post.html` and submit the Comment form.
+2.  In your editor of choice, load: `demo-site/js/form-validation.js`.
 3.  Add the JavaScript code to connect each `input` with its related error message.
 4.  **Bonus!** Test with a screen reader to make sure things are connected!
