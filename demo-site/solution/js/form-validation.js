@@ -26,10 +26,10 @@
         );
 
         // Attach a unique id to the $errorElm variable
-
+        inputErrorContainer.id = 'input-' + i;
 
         // Add aria-describedby to the $elm variable, settings its value to the id created above
-
+        inputField.setAttribute('aria-describedby', inputErrorContainer.id);
 
         i++;
       } else {

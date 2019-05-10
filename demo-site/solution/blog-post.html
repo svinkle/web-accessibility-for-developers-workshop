@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <title>Accessibility Workshop Design Blog Post</title> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>How to Choose the Right Hiking Gear | Outdoorsy</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -20,40 +21,29 @@
     />
   </head>
   <body>
-    <div class="header innerwrapper blogpost">
+    <a href="#main" class="visuallyhidden focusable skip-link">
+      Skip to content
+    </a>
+    <header class="header innerwrapper blogpost">
       <div class="topbar">
-        <a href="index.html"><h2>outdoorsy</h2></a>
-        <div class="nav">
+        <div><a href="index.html">outdoorsy</a></div>
+        <nav class="nav">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="blog-post.html">Blog</a></li>
+            <li><a href="blog-post.html" aria-current="page">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-        </div>
+        </nav>
       </div>
-    </div>
-    <div class="overlay">
-      <div class="popup">
-        <div><img src="img/popup-image.jpg" /></div>
-        <div class="textside">
-          <h1 id="popup-title-1">want to know more?</h1>
-          <h2 id="popup-title-2">sign up for my newsletter</h2>
-          <form>
-            <label for="name">Name</label>
-            <input type="text" placeholder="name" />
-            <label for="email">Email</label>
-            <input type="email" placeholder="email address" />
-            <input type="submit" value="Sign up" />
-          </form>
-        </div>
-        <div class="close"><i class="fa fa-times"></i></div>
-      </div>
-    </div>
-    <div class="main wrapper">
+    </header>
+    <main class="main wrapper">
       <div class="primary">
-        <div>
-          <h2>How to Choose the Right Hiking Gear</h2>
-          <img src="img/blog-image-1.jpg" />
+        <article>
+          <h1>How to Choose the Right Hiking Gear</h1>
+          <img
+            src="img/blog-image-1.jpg"
+            alt="A woman hikes though a forest wearing a canvas backpack."
+          />
           <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
@@ -98,22 +88,20 @@
             ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
             consequat.
           </p>
-        </div>
-        <div class="comment">
-          <h3>
+        </article>
+        <section class="comment">
+          <h2>
             Leave a Comment
             <span class="tool-tip">
               <i class="fas fa-info-circle tool-tip-btn"></i>
               <span id="tip" class="tip">Comment on the post above!</span>
             </span>
-          </h3>
+          </h2>
           <form class="comment-form">
             <label for="name">Name</label>
             <input type="text" id="name" placeholder="name" />
-
             <label for="emailaddress">Email Address</label>
             <input type="email" id="emailaddress" placeholder="email" />
-
             <label for="comment">Comment</label>
             <textarea
               name="comment"
@@ -122,89 +110,106 @@
               rows="10"
               placeholder="comment"
             ></textarea>
-
             <input type="submit" value="Submit" />
           </form>
-          <div class="singlecomment">
-            <img src="img/comment-image-1.jpg" />
-            <h4>Joe Smith on Wednesday June 13th, 2018 at 3:25pm</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam.
-            </p>
-          </div>
-          <div class="singlecomment">
-            <img src="img/comment-image-2.jpg" />
-            <h4>Julia Doe on Wednesday June 13th, 2018 at 6:42pm</h4>
-            <p>
-              Ut wisi enim ad minim veniam, quis nostrud exerci tation
-              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto.
-            </p>
-          </div>
-        </div>
+          <ul>
+            <li class="singlecomment">
+              <img src="img/comment-image-1.jpg" alt="" />
+              <h3>Joe Smith on Wednesday June 13th, 2018 at 3:25pm</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat volutpat. Ut wisi enim ad minim veniam.
+              </p>
+            </li>
+            <li class="singlecomment">
+              <img src="img/comment-image-2.jpg" alt="" />
+              <h3>Julia Doe on Wednesday June 13th, 2018 at 6:42pm</h3>
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis autem vel eum iriure dolor in hendrerit in
+                vulputate velit esse molestie consequat, vel illum dolore eu
+                feugiat nulla facilisis at vero eros et accumsan et iusto.
+              </p>
+            </li>
+          </ul>
+        </section>
       </div>
-      <div class="secondary">
-        <div>
-          <img src="img/about-image.jpg" />
-          <h3>Welcome!</h3>
+      <aside class="secondary">
+        <section>
+          <h2>Welcome!</h2>
+          <img src="img/about-image.jpg" alt="" />
           <p>
             I’m Jane Doe! Lorem ipsum dolor sit amet, consectetuer adipiscing
             elit, sed diam nonummy.
             <a href="index.html">READ MORE...</a>
           </p>
-        </div>
-        <div>
+        </section>
+        <section>
+          <h2 class="visuallyhidden">Social media</h2>
           <ul class="socialicons">
-            <a href="index.html">
-              <li><i class="fab fa-facebook-f"></i></li>
-            </a>
-            <a href="index.html">
-              <li><i class="fab fa-instagram"></i></li>
-            </a>
-            <a href="index.html">
-              <li><i class="fab fa-twitter"></i></li>
-            </a>
-            <a href="index.html">
-              <li><i class="fab fa-linkedin-in"></i></li>
-            </a>
-            <a href="index.html">
-              <li><i class="fab fa-google"></i></li>
-            </a>
+            <li>
+              <a href="#" aria-label="Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Google"><i class="fab fa-google"></i></a>
+            </li>
           </ul>
-        </div>
-        <div>
+        </section>
+        <section>
+          <h2 class="visuallyhidden">Search</h2>
           <form>
             <label for="search">Search</label>
-            <input type="search" placeholder="search" />
-            <button class="search"><i class="fa fa-search"></i></button>
+            <input type="search" placeholder="search" id="search" />
+            <button class="search" aria-label="Search">
+              <i class="fa fa-search"></i>
+            </button>
           </form>
-        </div>
-        <div>
+        </section>
+        <section>
           <h3>Latest Posts</h3>
           <ul>
-            <li>Post title here</li>
-            <li>Other post title here</li>
-            <li>Blog post title</li>
+            <li>
+              <a href="blog-post.html">How to Choose the Right Hiking Gear</a>
+            </li>
+            <li>
+              <a href="blog-post.html">5 Bridges You Must See In Ontario</a>
+            </li>
+            <li><a href="blog-post.html">My Latest Trip: Peru</a></li>
           </ul>
-        </div>
-        <div>
+        </section>
+        <section>
           <h3>Newsletter</h3>
-          <button class="newsletter-signup-btn">
+          <button class="newsletter-signup-btn" aria-haspopup="dialog">
             Signup for our newsletter
           </button>
-        </div>
-      </div>
-    </div>
-    <div class="footer innerwrapper">
+        </section>
+      </aside>
+    </main>
+    <footer class="footer innerwrapper">
       <div>
-        <a href="index.html"><h2>outdoorsy</h2></a>
+        <p><a href="index.html">outdoorsy</a></p>
         <form>
           <label for="email">Email</label>
-          <input type="text" placeholder="email address" />
+          <input type="text" placeholder="email address" id="email" />
           <input type="submit" value="Sign up" />
         </form>
         <p class="copyright">© 2018 Outdoorsy</p>
@@ -212,8 +217,8 @@
       <div>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html">Blog</a></li>
-          <li><a href="index.html">Contact</a></li>
+          <li><a href="blog-post.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <div>
@@ -224,6 +229,25 @@
           ullamcorper suscipit.
         </p>
       </div>
+    </footer>
+    <div class="overlay">
+      <div class="popup">
+        <div><img src="img/popup-image.jpg" alt="" /></div>
+        <div class="textside">
+          <h2 id="popup-title-1">want to know more?</h2>
+          <p id="popup-title-2">sign up for my newsletter</p>
+          <form>
+            <label for="name-popup">Name</label>
+            <input type="text" placeholder="name" id="name-popup" />
+            <label for="email-popup">Email</label>
+            <input type="email" placeholder="email address" id="email-popup" />
+            <input type="submit" value="Sign up" />
+          </form>
+        </div>
+      </div>
+      <button class="close" aria-label="close">
+        <i class="fa fa-times"></i>
+      </button>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://unpkg.com/wicg-inert"></script>
