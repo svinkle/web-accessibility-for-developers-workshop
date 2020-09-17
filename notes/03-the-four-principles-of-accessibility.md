@@ -18,7 +18,7 @@ WCAG (also pronounced "wuh-cag") is a world-wide recognized standard for testing
 
 ## P.O.U.R.
 
-[![Perceivable & Operable & Understandable & Robust t-shirt.](../slide-deck/images/pour.png)](https://www.redbubble.com/people/sundress/works/28033827-pandoanduandr-black)
+[![Perceivable & Operable & Understandable & Robust t-shirt.](../slide-deck/images/pour.png)](https://scottvinkle.me/collections/t-shirts/products/perceivable-operable-understandable-robust-t-shirt)
 
 The basis of each accessibility recommendation or best practice is actually derived from one of the four principles of accessibility. Each principal represents a set of guidelines which are to be followed in order to create a usable and accessible experience.
 
